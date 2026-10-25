@@ -1,0 +1,129 @@
+title: "Digital Impact Platform"
+criteria:
+  - description: "AI-instructies en planning (AGENTS.md & ROADMAP.md)"
+    long_description: "Je denkt vooraf na over het refactorproject: een duidelijke systeemrol/stijlgids voor de AI-agent en een concreet refactorplan gebaseerd op analyse van de legacy-site."
+    ratings:
+      - description: "Uitstekend"
+        points: 5
+        long_description: "AGENTS.md bevat alle gevraagde onderdelen (naam, probleem, doelgroep, vibe, data, systeemrol, tech stack, afbakening) duidelijk en concreet uitgewerkt. ROADMAP.md bevat een realistisch refactorplan, gebaseerd op een AI-analyse van de legacy-site, met opgevolgde checkboxen."
+      - description: "Voldoende"
+        points: 3
+        long_description: "De meeste onderdelen van AGENTS.md zijn aanwezig maar oppervlakkig uitgewerkt. ROADMAP.md is aanwezig maar weinig concreet of niet consequent bijgehouden."
+      - description: "Onvoldoende"
+        points: 1
+        long_description: "AGENTS.md en/of ROADMAP.md zijn zeer summier, generiek of grotendeels onvolledig."
+      - description: "Geen score"
+        points: 0
+        long_description: "Deze bestanden ontbreken volledig."
+
+  - description: "Wijzigingsbeheer (commits)"
+    long_description: "Je houdt gedetailleerd en chronologisch bij welke wijzigingen wanneer zijn uitgevoerd."
+    ratings:
+      - description: "Uitstekend"
+        points: 5
+        long_description: "Je commits bevatten gedetailleerde informatie die het volledige refactorproces logisch weergeven, inclusief de toegevoegde componenten en het uitgewerkte thema, in lijn met ROADMAP.md."
+      - description: "Voldoende"
+        points: 3
+        long_description: "Je commits bevatten komen niet altijd overeen met de uitgevoerde wijzigingen."
+      - description: "Onvoldoende"
+        points: 1
+        long_description: "Je hebt weinig commits gemaakt of deze zijn zeer beperkt, of de commitberichten zijn onduidelijk en geven geen inzicht in de uitgevoerde wijzigingen."
+      - description: "Geen score"
+        points: 0
+        long_description: "Commits ontbreken."
+
+  - description: "README.md"
+    long_description: "Evaluatie van de einddocumentatie en reflectie op het AI-proces."
+    ratings:
+      - description: "Uitstekend"
+        points: 5
+        long_description: "Grondige Reflectie & Documentatie: Volgt exact de 11 verplichte punten. Bevat een duidelijke maatschappelijke verantwoording, installatie-instructies, live Netlify URL, een kritische analyse van aangepaste AI-code en reflectie op problemen/reviews."
+      - description: "Voldoende"
+        points: 3
+        long_description: "Voldoende Documentatie: Bevat alle 11 gevraagde punten. De informatie is correct (inclusief live URL en installatie-instructies), maar de reflectie op AI-code of de lijst met problemen is eerder beknopt uitgewerkt."
+      - description: "Onvoldoende"
+        points: 1
+        long_description: "Onvolledige Documentatie: Meerdere van de 11 punten ontbreken. Er is geen kritische reflectie op AI-code, geen heldere installatiehandleiding of de live URL naar Netlify ontbreekt."
+      - description: "Geen score"
+        points: 0
+        long_description: "Ontbreekt volledig: Het bestand README.md is niet aanwezig in de root van de repository."
+
+  - description: "Inhoudelijk luik website"
+    long_description: "Beoordeling van de inhoud, functionaliteiten en de maatschappelijke relevantie van de applicatie."
+    ratings:
+      - description: "Uitstekend"
+        points: 10
+        long_description: "Rijk, Maatschappelijk & Toegankelijk: Duidelijk maatschappelijk thema uitgewerkt op min. 3 pagina's. Bevat een sterke hero-sectie, missie/visie, concrete impactdata, kennisbank/FAQ, gewerkte actie-module, werkend formulier met spamfilter, interactieve game/quiz én volledige transparantie (KBO, adres, AVG). Schrijftaal op B1-niveau."
+      - description: "Voldoende"
+        points: 7
+        long_description: "Voldoende Inhoud: 3 pagina's aanwezig rond het thema. Alle kernelementen (hero, kennisbank, contact, transparantie) zijn aanwezig, maar de impactdata of gamificatie is eerder oppervlakkig uitgewerkt. Spamfilter werkt naar behoren."
+      - description: "Onvoldoende"
+        points: 3
+        long_description: "Matige/Incomplete Inhoud: Minder dan 3 pagina's of essentiële onderdelen ontbreken (bijv. geen KBO-gegevens, geen werkende spamfilter, of geen gamificatie). Het maatschappelijk thema komt niet helder naar voren."
+      - description: "Geen score"
+        points: 0
+        long_description: "Niet functioneel / Geen inhoud: Geen werkende inhoud of thema aanwezig."
+
+  - description: "Technisch luik website (Design & WCAG)"
+    long_description: "Beoordeling van de responsiviteit, codekwaliteit en WCAG 2.1 AA toegankelijkheid."
+    ratings:
+      - description: "Uitstekend"
+        points: 10
+        long_description: "Uitstekend Technisch & WCAG 2.1 AA: Volledig responsive (mobile-first van 320px tot desktop). Semantische HTML5, vlekkeloze toetsenbordnavigatie (Tab/Enter), hoog kleurcontrast (>= 4.5:1), correcte ARIA-labels en eigen branding (logo/kleuren). Schone code via gekozen framework/CSS."
+      - description: "Voldoende"
+        points: 7
+        long_description: "Voldoende Technisch: Goed responsive en visueel aantrekkelijk. Gebruik van semantische HTML5 en een CSS-bibliotheek. Voldoet op het eerste gezicht aan WCAG AA, maar bevat kleine slordigheden (bijv. één ontbrekend contrastpunt of slordige focus-ring)."
+      - description: "Onvoldoende"
+        points: 3
+        long_description: "Technisch Onvoldoende: Lay-out breekt op mobiel formaat. Geen semantische HTML (te veel <div>s), slechte kleurcontrasten, niet te bedienmen met toetsenbord of ontbrekende alt-teksten. Inline styling of rommelige code."
+      - description: "Geen score"
+        points: 0
+        long_description: "Niet responsive / Onbruikbaar: De code compileert niet of de site is technisch volledig onbruikbaar."
+
+  - description: "GitHub: Branches, PR's & Peer Reviews"
+    long_description: "Beoordeling van het gebruik van Git, feature-branches, Pull Requests en peer reviews."
+    ratings:
+      - description: "Uitstekend"
+        points: 10
+        long_description: "Professionele Git Workflow: Geen directe commits op main. Alle features zijn ontwikkeld op duidelijke feature-branches en gemerged via PR's. Elke PR heeft een inhoudelijke en goedgekeurde peer-review door een medestudent. De student heeft zelf ook kwalitatieve reviews uitgevoerd bij anderen."
+      - description: "Voldoende"
+        points: 7
+        long_description: "Voldoende Git Workflow: Er is gewerkt met feature-branches en PR's. PR's zijn goedgekeurd door een medestudent, maar de feedback in de reviews op GitHub is minimaal (bijv. enkel 'LGTM' zonder inhoudelijke check)."
+      - description: "Onvoldoende"
+        points: 3
+        long_description: "Gebrekkige Git Workflow: Er is rechtstreeks op main gewerkt of feature-branches zijn nauwelijks gebruikt. PR's ontbreken of zijn zonder review door een medestudent zelfstandig gemerged."
+      - description: "Geen score"
+        points: 0
+        long_description: "Geen Git-structuur: Alles staat in één enkele commit op main zonder branches of PR's."
+
+  - description: "Playwright Testen (E2E & WCAG)"
+    long_description: "Beoordeling van de aanwezigheid, werking en dekking van de Playwright E2E- en toegankelijkheidstesten."
+    ratings:
+      - description: "Uitstekend"
+        points: 10
+        long_description: "Volledig & Werkende E2E-suite: Aanwezigheid van 3 correct opgebouwde testbestanden in project/tests/: navigatie (incl. mobiel menu), formuliervalidatie + honeypot-spamfilter, én geautomatiseerde WCAG-scan via @axe-core/playwright. Alle testen slagen vlekkeloze."
+      - description: "Voldoende"
+        points: 7
+        long_description: "Voldoende Testen: Playwright is geïnstalleerd en geconfigureerd met werkende webServer. De 3 testbestanden zijn aanwezig en draaien succesvol, maar dekken niet alle randgevallen (bijv. spamfilter-test is niet volledig of mobiele navigatie wordt overgeslagen)."
+      - description: "Onvoldoende"
+        points: 3
+        long_description: "Onvolledige/Falende Testen: Playwright is wel aanwezig, maar de testen falen, de webServer is verkeerd ingesteld of er ontbreken verplichte testen (bijv. geen toegankelijkheidstest met Axe of geen spamfilter-test)."
+      - description: "Geen score"
+        points: 0
+        long_description: "Geen Playwright testen: Er zijn geen Playwright-testbestanden aanwezig in de repository."
+
+  - description: "Auto-Deployment (Netlify & GitHub Actions)"
+    long_description: "Beoordeling van de CI/CD pipeline, branch protection en de live hosting op Netlify."
+    ratings:
+      - description: "Uitstekend"
+        points: 10
+        long_description: "Foutloze CI/CD Pipeline: GitHub Actions voert de Playwright-testen automatisch uit bij elke PR. Branch protection op main staat correct ingesteld (vereist groene testen + 1 approval). De site wordt automatisch en foutloos gehost op Netlify via GitHub."
+      - description: "Voldoende"
+        points: 7
+        long_description: "Werkende Deployment met Kleine Manco's: De site staat live op Netlify en GitHub Actions voert de testen uit. De branch protection op GitHub staat echter niet volledig of te strikt ingesteld, óf preview deployments werken niet optimaal."
+      - description: "Onvoldoende"
+        points: 3
+        long_description: "Gebrekkige CI/CD: De Netlify deployment faalt of is niet gekoppeld aan GitHub. GitHub Actions faalt bij het uitvoeren van de Playwright-testen door verkeerde paden/configuraties."
+      - description: "Geen score"
+        points: 0
+        long_description: "Geen Deployment: De applicatie is niet live gezet op Netlify en er is geen werkende GitHub Action aanwezig."
