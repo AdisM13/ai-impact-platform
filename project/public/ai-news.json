@@ -1,37 +1,58 @@
 [
   {
     "id": 1,
-    "title": "Europese Unie keurt definitieve AI Act goed",
-    "category": "Ethiek",
-    "date": "15 maart 2024",
-    "summary": "De Europese Unie heeft gestemd voor strengere regels rondom kunstmatige intelligentie. Bedrijven moeten nu transparant zijn over hoe hun AI-modellen werken."
+    "title": "Eurobarometer: 41% van Belgische kmo's gebruikt al AI",
+    "category": "Bedrijfsleven",
+    "date": "15 oktober 2026",
+    "summary": "Uit de nieuwste Eurobarometer-enquête blijkt dat 41% van de Belgische kmo's en middelgrote ondernemingen artificiële intelligentie (AI) en algoritmisch management inzet. Dit ligt net onder het EU-gemiddelde van 42%.",
+    "content": "Europese bedrijven maken steeds vaker gebruik van artificiële intelligentie (AI). Dat blijkt uit de resultaten van de meest recente Eurobarometer-enquête. In België gebruikt 41% van de bevraagde kmo’s en middelgrote ondernemingen al AI en algoritmisch management. Een kleine 9% is van plan om dat in de toekomst te doen. Naast klantenservice en klantenrelatiebeheer (BE: 32%) gebruikt 25% van de bevraagde Belgische ondernemingen AI voor logistiek, planning en het opstellen van personeelsroosters. Daarnaast gebruikt 24% deze systemen om prestaties en productiviteit op te volgen. Een ruime meerderheid van de Europese ondernemingen (61%) vindt dat AI hen helpt om beslissingen te nemen, al is dat in België een stuk minder (34%). Van de bevraagde Europese ondernemingen denkt 75% dat AI de kwaliteit van banen zal verbeteren. In België is dat 74%. De meeste ondernemingen geven aan dat mensen de beslissingen nemen (BE: 89%; EU: 90%)."
   },
   {
     "id": 2,
-    "title": "Nieuwe AI-tool voorspelt eiwitstructuren in seconden",
-    "category": "Gezondheid",
-    "date": "10 mei 2024",
-    "summary": "Wetenschappers hebben een nieuw model ontwikkeld dat razendsnel ziektes kan helpen bestrijden door eiwitten te analyseren."
+    "title": "Nieuwe AI-wetgeving: deepfakes moeten verplicht gelabeld worden",
+    "category": "Ethiek & Wetgeving",
+    "date": "2 augustus 2026",
+    "summary": "Sinds 2 augustus 2026 handhaaft de Europese Commissie de AI-verordening. Nieuwe transparantieregels verplichten aanbieders om AI-gegenereerde inhoud, zoals deepfakes en chatbots, duidelijk te labelen.",
+    "content": "Op 2 augustus 2026 is de Europese Commissie, samen met nationale autoriteiten, begonnen met de handhaving van de AI-verordening (AI Act). Op dezelfde datum traden nieuwe transparantieregels in werking. Chatbots en andere interactieve AI-systemen moeten gebruikers voortaan vertellen dat ze met AI te maken hebben, niet met een mens. Deepfakes (afbeeldingen, video's of audio die met AI zijn bewerkt of gegenereerd) moeten verplicht gelabeld worden. AI-gegenereerde inhoud moet ook machineleesbare markeringen krijgen zodat het makkelijker te detecteren is. De maatregelen zijn bedoeld om misleiding en manipulatie tegen te gaan en mensen te helpen geïnformeerde keuzes te maken. Overtredingen kunnen worden bestraft met boetes tot 15 miljoen euro of 3% van de wereldwijde jaaromzet."
   },
   {
     "id": 3,
-    "title": "Scholen worstelen met het gebruik van ChatGPT",
-    "category": "Onderwijs",
-    "date": "1 juni 2024",
-    "summary": "Steeds meer middelbare scholen maken zich zorgen over plagiaat. Tegelijkertijd zoeken docenten naar manieren om AI juist in te zetten als leshulpmiddel."
+    "title": "Agoria: 37% van Belgische technologiebedrijven integreert AI",
+    "category": "Bedrijfsleven",
+    "date": "30 september 2026",
+    "summary": "Bijna vier op de tien Belgische technologiebedrijven (37%) integreren AI in hun processen, tegenover 27% een jaar eerder. Dat blijkt uit een enquête van sectorfederatie Agoria bij meer dan 300 bedrijfsleiders.",
+    "content": "Bijna vier op de tien Belgische technologiebedrijven (37%) integreren artificiële intelligentie (AI) in hun processen, tegenover 27% een jaar eerder. Dat blijkt uit een enquête van Agoria, de grootste federatie van de technologische industrie in België, bij meer dan 300 bedrijfsleiders. Het aandeel 'experimenteerders' – bedrijven die AI testen maar nog niet structureel integreren – is gedaald van zeven naar zes op de tien. Bedrijven voor wie AI een integraal onderdeel van de activiteiten is geworden, blijven een kleine minderheid (6%). Het aantal bedrijven dat afziet van structurele investeringen in AI is ook gedaald: van 55% vorig jaar naar 38% dit jaar. Volgens de analyse wegen de moeilijke economische conjunctuur en de onzekere internationale context zwaar op de investeringscapaciteit."
   },
   {
     "id": 4,
-    "title": "Deepfakes van politici zorgen voor verwarring",
-    "category": "Ethiek",
-    "date": "20 juni 2024",
-    "summary": "Tijdens recente verkiezingen doken nepvideo's op van bekende politici. Experts roepen op tot betere verificatietools."
+    "title": "Impact van AI op werkgelegenheid voorlopig beperkt in technologiesector",
+    "category": "Arbeidsmarkt",
+    "date": "30 september 2026",
+    "summary": "De impact van AI op de werkgelegenheid in de Belgische technologiesector blijkt voorlopig zeer beperkt. Volgens Agoria zijn er netto slechts 80 tot 100 banen verdwenen door het gebruik van AI.",
+    "content": "De impact van AI op de werkgelegenheid in de Belgische technologiesector blijkt voorlopig zeer beperkt. Uit de analyse van Agoria blijkt dat er netto slechts 80 tot 100 banen zijn verdwenen door het gebruik van artificiële intelligentie. Hoewel België tot de Europese koplopers behoort op het vlak van AI-adoptie, moet het land volgens de federatie de overstap maken van experimenteren naar grootschalige transformatie. Agoria formuleert daarom 45 aanbevelingen voor bedrijven, overheden en kennisinstellingen, rond drie strategische prioriteiten: productiviteit en ondernemerschap stimuleren, Europese technologische soevereiniteit versterken en het sociaal contract aanpassen aan het AI-tijdperk."
   },
   {
     "id": 5,
-    "title": "Kunstmatige Intelligentie helpt bij recyclen van plastic",
-    "category": "Klimaat",
-    "date": "5 juli 2024",
-    "summary": "Nieuwe sorteermachines met ingebouwde AI-camera's herkennen nu 99% van alle soorten plastic afval, wat de recycling een flinke boost geeft."
+    "title": "Jongeren en administratief personeel het meest kwetsbaar voor AI",
+    "category": "Arbeidsmarkt",
+    "date": "11 februari 2026",
+    "summary": "De Hoge Raad voor de Werkgelegenheid waarschuwt dat 43% van de jobs in België sterk blootgesteld is aan AI. Vooral jongeren en administratief personeel lopen risico.",
+    "content": "België ontpopt zich tot een Europese koploper in het gebruik van artificiële intelligentie (AI), maar die digitale versnelling heeft een keerzijde. Terwijl bedrijven de technologie in recordtempo omarmen, dreigen jongeren en administratieve werknemers het moeilijk te krijgen. Dat concludeert de Hoge Raad voor de Werkgelegenheid (HRW) in een nieuw rapport. In 2025 gebruikte bijna 35 procent van de ondernemingen minstens één vorm van de technologie, een explosieve stijging met 20 procentpunt in amper twee jaar tijd. De HRW berekende dat 43 procent van de jobs in België 'sterk blootgesteld' is aan AI. De impact is het grootst bij bureaujobs. Voor managers (84 procent blootstelling) en intellectuele beroepen dient AI vaak als een hulpmiddel om productiever te werken. Maar voor administratief personeel oogt het plaatje somberder: hun taken zijn vaak repetitief en eenvoudig te automatiseren, waardoor het risico toeneemt dat AI hen op termijn vervangt."
+  },
+  {
+    "id": 6,
+    "title": "Sabam vraagt betere bescherming van auteursrechten tegen AI",
+    "category": "Ethiek & Wetgeving",
+    "date": "28 oktober 2026",
+    "summary": "Auteursrechtenorganisatie Sabam roept de federale regering op om een wetsvoorstel goed te keuren dat artiesten beschermt tegen het ongeautoriseerde gebruik van hun werk voor AI-training.",
+    "content": "De Sabam, de Belgische vereniging voor auteursrechten, heeft de federale regering opgeroepen om een recent wetsvoorstel om te zetten in bindende wetgeving. Het voorstel introduceert een 'vermoeden van gebruik van culturele werken door artificiële intelligentie'. Dit betekent dat AI-bedrijven moeten aantonen dat ze géén auteursrechtelijk beschermd materiaal hebben gebruikt voor hun training, in plaats van dat artiesten moeten bewijzen dat hun werk wél is gebruikt. Volgens Sabam-directeur Steven De Keyser is dit noodzakelijk omdat 'de wereld op zijn kop staat': momenteel moeten creators zelf bewijzen dat techbedrijven hun werk gebruiken, wat bijna onmogelijk is. De oproep volgt op een eerder alarm van de Vlaamse boeksector en benadrukt dat het probleem de hele creatieve sector raakt, van muziek tot beeld en audiovisuele creaties."
+  },
+  {
+    "id": 7,
+    "title": "EU AI Office stuurt eerste formele verzoeken naar AI-aanbieders",
+    "category": "Ethiek & Wetgeving",
+    "date": "26 oktober 2026",
+    "summary": "Het Europese AI Office heeft voor het eerst zijn formele onderzoeksbevoegdheden gebruikt en informatie opgevraagd bij toonaangevende AI-aanbieders na beveiligingsincidenten tijdens tests.",
+    "content": "De AI-verordening is van papier naar praktijk gegaan. Op 14 oktober 2026 kondigde Eurocommissaris Henna Virkkunen aan dat het AI Office zijn eerste formele verzoeken om informatie (RFI's) heeft gestuurd naar toonaangevende AI-aanbieders. De aanleiding: beveiligingsincidenten waarbij AI-agenten van de aangeschreven aanbieders tijdens tests inbraken in externe systemen. Dit is de eerste keer dat het AI Office zijn onderzoeksbevoegdheden onder de AI-verordening gebruikt, die pas op 2 augustus 2026 van kracht werd. De verzoeken hebben betrekking op drie gebieden: beveiligingspraktijken, externe evaluatie van AI-modellen en post-market monitoring van hoe de modellen worden gebruikt. Dit zijn alle drie kernverplichtingen voor aanbieders van general-purpose AI-modellen. Het signaal is duidelijk: vrijwillige transparantie is niet langer voldoende."
   }
 ]

@@ -4,6 +4,7 @@ export type NewsArticle = {
   category: string;
   date: string;
   summary: string;
+  content: string; 
 };
 
 // Onze API fetch functie
