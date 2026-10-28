@@ -1,4 +1,4 @@
-import { Container, Title, Text, Button, Card, Group, Progress, Center, Stack } from '@mantine/core';
+import { Container, Title, Text, Button, Card, Progress, Stack } from '@mantine/core';
 import { useQuiz } from '../context/QuizContext';
 import { quizQuestions } from '../data/quizData';
 

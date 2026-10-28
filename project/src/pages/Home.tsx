@@ -27,14 +27,26 @@ export default function Home() {
         </Group>
 
         {/* Impact Data in mooie kaartjes */}
+        {/* Impact Data in mooie kaartjes */}
         <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="xl" mt="3rem" w="100%" maw={800}>
           <Paper shadow="sm" radius="md" p="xl" withBorder bg="white">
-            <Title order={2} c="#0ea5e9" size="2.5rem">75%</Title>
-            <Text size="md" c="gray.7" fw={500}>van de Nederlanders maakt wekelijks gebruik van AI</Text>
+            <Title order={2} c="#0ea5e9" size="2.5rem">34,5%</Title>
+            <Text size="md" c="gray.7" fw={500} mb="xs">
+              van de Belgische bedrijven gebruikte in 2025 minstens één AI-technologie. Goed voor een plaats in de Europese top 5.
+            </Text>
+            <Text size="xs" c="dimmed">
+              Bron: FOD Economie, Belgian Digital Economy Overview 2026
+            </Text>
           </Paper>
+
           <Paper shadow="sm" radius="md" p="xl" withBorder bg="white">
-            <Title order={2} c="#0ea5e9" size="2.5rem">2026</Title>
-            <Text size="md" c="gray.7" fw={500}>Nieuwe Europese AI-wetgeving van kracht</Text>
+            <Title order={2} c="#0ea5e9" size="2.5rem">42%</Title>
+            <Text size="md" c="gray.7" fw={500} mb="xs">
+              van de Belgen tussen 16 en 74 jaar heeft de voorbije drie maanden een generatieve AI-tool gebruikt.
+            </Text>
+            <Text size="xs" c="dimmed">
+              Bron: FOD Economie, Belgian Digital Economy Overview 2026
+            </Text>
           </Paper>
         </SimpleGrid>
 

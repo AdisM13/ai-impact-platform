@@ -10,9 +10,9 @@
   - [x] Router koppelen aan alle 5 pagina's.
 - [ ] **Fase 3: Pagina's & Content**
   - [x] Home (Hero, Missie, Impact cijfers).
-  - [ ] Kennisbank (Artikelen, FAQ, Bronnen).
+  - [x] Kennisbank (Artikelen, FAQ, Bronnen).
   - [x] Quiz (Interactief met Context API).
-  - [ ] API Data (Nieuws ophalen met TanStack Query + Filter).
+  - [x] API Data (Nieuws ophalen met TanStack Query + Filter).
   - [ ] Contact (Honeypot spamfilter).
 - [ ] **Fase 4: Testing & Deployment**
   - [ ] Playwright tests schrijven (Navigatie, Formulier, WCAG).
