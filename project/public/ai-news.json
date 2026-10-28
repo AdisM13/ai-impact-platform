@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Europese Unie keurt definitieve AI Act goed",
+    "category": "Ethiek",
+    "date": "15 maart 2024",
+    "summary": "De Europese Unie heeft gestemd voor strengere regels rondom kunstmatige intelligentie. Bedrijven moeten nu transparant zijn over hoe hun AI-modellen werken."
+  },
+  {
+    "id": 2,
+    "title": "Nieuwe AI-tool voorspelt eiwitstructuren in seconden",
+    "category": "Gezondheid",
+    "date": "10 mei 2024",
+    "summary": "Wetenschappers hebben een nieuw model ontwikkeld dat razendsnel ziektes kan helpen bestrijden door eiwitten te analyseren."
+  },
+  {
+    "id": 3,
+    "title": "Scholen worstelen met het gebruik van ChatGPT",
+    "category": "Onderwijs",
+    "date": "1 juni 2024",
+    "summary": "Steeds meer middelbare scholen maken zich zorgen over plagiaat. Tegelijkertijd zoeken docenten naar manieren om AI juist in te zetten als leshulpmiddel."
+  },
+  {
+    "id": 4,
+    "title": "Deepfakes van politici zorgen voor verwarring",
+    "category": "Ethiek",
+    "date": "20 juni 2024",
+    "summary": "Tijdens recente verkiezingen doken nepvideo's op van bekende politici. Experts roepen op tot betere verificatietools."
+  },
+  {
+    "id": 5,
+    "title": "Kunstmatige Intelligentie helpt bij recyclen van plastic",
+    "category": "Klimaat",
+    "date": "5 juli 2024",
+    "summary": "Nieuwe sorteermachines met ingebouwde AI-camera's herkennen nu 99% van alle soorten plastic afval, wat de recycling een flinke boost geeft."
+  }
+]
