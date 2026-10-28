@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import '@mantine/core/styles.css';
 import './index.css';
 import App from './App';
+import { QuizProvider } from './context/QuizContext'; 
 
 // We maken ons eigen Mantine thema op basis van AGENTS.md
 const theme = createTheme({
@@ -25,7 +26,9 @@ createRoot(document.getElementById('root')!).render(
     <QueryClientProvider client={queryClient}>
       <MantineProvider>
         <BrowserRouter>
+        <QuizProvider>
           <App />
+        </QuizProvider>
         </BrowserRouter>
       </MantineProvider>
     </QueryClientProvider>

@@ -1,10 +1,63 @@
-import { Container, Title, Text } from '@mantine/core';
+import { Container, Title, Text, Button, Card, Group, Progress, Center, Stack } from '@mantine/core';
+import { useQuiz } from '../context/QuizContext';
+import { quizQuestions } from '../data/quizData';
+
 
 export default function Quiz() {
+  // Haal de data en functies uit onze Context!
+  const { score, currentQuestion, addScore, nextQuestion, resetQuiz } = useQuiz();
+
+  // Is de quiz afgelopen?
+  const isFinished = currentQuestion >= quizQuestions.length;
+
+  const handleAnswer = (answer: string) => {
+    if (answer === quizQuestions[currentQuestion].correct) {
+      addScore();
+    }
+    nextQuestion();
+  };
+
   return (
-    <Container size="md" py="xl">
-      <Title order={1} mb="md">AI of Mens Quiz</Title>
-      <Text>Test hier of jij het verschil ziet tussen een tekst geschreven door een AI of door een mens!</Text>
+    <Container size="sm" py="xl">
+      <Title order={1} ta="center" mb="xl" c="#1e293b">AI of Mens Quiz</Title>
+
+      {/* Voortgangsbalk */}
+      <Progress 
+        value={(currentQuestion / quizQuestions.length) * 100} 
+        mb="xl" 
+        color="blue" 
+        size="lg" 
+        radius="xl" 
+      />
+
+      {isFinished ? (
+        // EINDSCHERM
+        <Card shadow="md" radius="lg" p="xl" withBorder ta="center">
+          <Title order={2} mb="md">Quiz Voltooid!</Title>
+          <Text size="xl" mb="xl">Je score is: <strong>{score} van de {quizQuestions.length}</strong></Text>
+          <Button onClick={resetQuiz} size="lg" color="blue">Opnieuw Proberen</Button>
+        </Card>
+      ) : (
+        // VRAGENSCHERM
+        <Card shadow="md" radius="lg" p="xl" withBorder>
+          <Text size="sm" c="dimmed" mb="xs">Vraag {currentQuestion + 1} van {quizQuestions.length}</Text>
+          <Title order={3} mb="xl" fw={500}>{quizQuestions[currentQuestion].text}</Title>
+          
+          <Stack gap="md">
+            {quizQuestions[currentQuestion].options.map((option) => (
+              <Button 
+                key={option} 
+                variant="outline" 
+                size="lg" 
+                onClick={() => handleAnswer(option)}
+                fullWidth
+              >
+                {option}
+              </Button>
+            ))}
+          </Stack>
+        </Card>
+      )}
     </Container>
   );
 }
