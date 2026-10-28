@@ -9,9 +9,9 @@
   - [x] AppShell (Header/Navbar) inbouwen.
   - [x] Router koppelen aan alle 5 pagina's.
 - [ ] **Fase 3: Pagina's & Content**
-  - [ ] Home (Hero, Missie, Impact cijfers).
+  - [x] Home (Hero, Missie, Impact cijfers).
   - [ ] Kennisbank (Artikelen, FAQ, Bronnen).
-  - [ ] Quiz (Interactief met Context API).
+  - [x] Quiz (Interactief met Context API).
   - [ ] API Data (Nieuws ophalen met TanStack Query + Filter).
   - [ ] Contact (Honeypot spamfilter).
 - [ ] **Fase 4: Testing & Deployment**
