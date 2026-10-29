@@ -7,13 +7,17 @@ test.describe('Navigatie en Routing', () => {
     await expect(page.locator('h1')).toContainText('De Impact van Kunstmatige Intelligentie');
   });
 
-  test('moet kunnen navigeren naar de Kennisbank via de navbar', async ({ page }) => {
+  test('moet kunnen navigeren naar de Kennisbank via de navbar', async ({ page, isMobile }) => {
     await page.goto('/');
-    
-    // DE FIX: We zoeken nu specifiek in de <header> (de navigatiebalk)
-    // Hierdoor negeert hij de knop op de Home-pagina.
-    const navbarLink = page.locator('header').getByRole('link', { name: 'Kennisbank' });
-    await navbarLink.click();
+
+    // ALS we op een mobiel scherm zitten, open dan eerst het hamburgermenu
+    if (isMobile) {
+      await page.getByRole('button', { name: 'Open navigatiemenu' }).click();
+    }
+
+    // Nu kunnen we op de link klikken. 
+    // We gebruiken exact: true om te voorkomen dat we per ongeluk de knop op de Home-pagina raken.
+    await page.getByRole('link', { name: 'Kennisbank', exact: true }).click();
     
     await expect(page).toHaveURL(/.*kennisbank/);
     await expect(page.locator('h1')).toContainText('Kennisbank');
