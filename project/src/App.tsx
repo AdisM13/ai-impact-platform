@@ -1,46 +1,54 @@
-import { useState } from 'react';
-import { Routes, Route, Link, useLocation } from 'react-router-dom';
-import { AppShell, NavLink, Title, Group, Burger, Drawer, Stack } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
-import { IconHome, IconBook, IconBrain, IconNews, IconMail } from '@tabler/icons-react';
-import Home from './pages/Home';
-import Kennisbank from './pages/Kennisbank';
-import Quiz from './pages/Quiz';
-import ApiData from './pages/ApiData';
-import Contact from './pages/Contact';
+import {AppShell, Burger, Drawer, Group, NavLink, Stack, Title} from '@mantine/core'
+import {useDisclosure} from '@mantine/hooks'
+import {IconBook, IconBrain, IconHome, IconMail, IconNews} from '@tabler/icons-react'
+import {useState} from 'react'
+import {Link, Route, Routes, useLocation} from 'react-router-dom'
+import ApiData from './pages/ApiData'
+import Contact from './pages/Contact'
+import Home from './pages/Home'
+import Kennisbank from './pages/Kennisbank'
+import Quiz from './pages/Quiz'
 
 function App() {
-  const location = useLocation();
+  const location = useLocation()
   // Mantine hook om het mobiele menu open/dicht te klappen
-  const [opened, { toggle, close }] = useDisclosure(false);
+  const [opened, {toggle, close}] = useDisclosure(false)
 
   // We maken een lijstje met onze navigatie-items om dubbele code te voorkomen
   const navItems = [
-    { path: '/', label: 'Home', icon: IconHome },
-    { path: '/kennisbank', label: 'Kennisbank', icon: IconBook },
-    { path: '/quiz', label: 'Quiz', icon: IconBrain },
-    { path: '/api-data', label: 'AI Nieuws', icon: IconNews },
-    { path: '/contact', label: 'Contact', icon: IconMail },
-  ];
+    {path: '/', label: 'Home', icon: IconHome},
+    {path: '/kennisbank', label: 'Kennisbank', icon: IconBook},
+    {path: '/quiz', label: 'Quiz', icon: IconBrain},
+    {path: '/api-data', label: 'AI Nieuws', icon: IconNews},
+    {path: '/contact', label: 'Contact', icon: IconMail},
+  ]
 
   return (
-    <AppShell header={{ height: 70 }} padding="xl">
-      
+    <AppShell header={{height: 70}} padding="xl">
       {/* HEADER (Horizontaal bovenaan) */}
       <AppShell.Header px="xl" bg="white">
         <Group h="100%" justify="space-between">
-          
           {/* Logo gedeelte */}
           <Group gap="xs">
-            <div style={{ backgroundColor: '#0ea5e9', padding: '5px 10px', borderRadius: '8px', color: 'white', fontWeight: 'bold' }}>
+            <div
+              style={{
+                backgroundColor: '#0369a1',
+                padding: '5px 10px',
+                borderRadius: '8px',
+                color: 'white',
+                fontWeight: 'bold',
+              }}
+            >
               AI
             </div>
-            <Title order={3} c="#1e293b">Impact Platform</Title>
+            <Title order={3} c="#1e293b">
+              Impact Platform
+            </Title>
           </Group>
 
           {/* Desktop Navigatie (Verbergen op mobiel met visibleFrom) */}
           <Group gap="xs" visibleFrom="sm">
-            {navItems.map((item) => (
+            {navItems.map(item => (
               <NavLink
                 key={item.path}
                 component={Link}
@@ -50,7 +58,7 @@ function App() {
                 active={location.pathname === item.path}
                 color="blue"
                 variant="subtle"
-                style={{ borderRadius: '8px', width: 'auto' }}
+                style={{borderRadius: '8px', width: 'auto'}}
               />
             ))}
           </Group>
@@ -63,7 +71,7 @@ function App() {
       {/* MOBIEL MENU (Schuift in beeld als je op de hamburger klikt) */}
       <Drawer opened={opened} onClose={close} title="Menu" padding="md" hiddenFrom="sm" size="xs">
         <Stack gap="sm">
-          {navItems.map((item) => (
+          {navItems.map(item => (
             <NavLink
               key={item.path}
               component={Link}
@@ -74,7 +82,7 @@ function App() {
               color="blue"
               variant="light"
               onClick={close} // Sluit menu na klikken
-              style={{ borderRadius: '8px' }}
+              style={{borderRadius: '8px'}}
             />
           ))}
         </Stack>
@@ -90,9 +98,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </AppShell.Main>
-
     </AppShell>
-  );
+  )
 }
 
-export default App;
+export default App

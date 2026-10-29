@@ -1,24 +1,22 @@
-import { Container, Title, Text, Button, Group, Stack, Paper, SimpleGrid } from '@mantine/core';
-import { Link } from 'react-router-dom';
+import {Button, Container, Group, Paper, SimpleGrid, Stack, Text, Title} from '@mantine/core'
+import {Link} from 'react-router-dom'
 
 export default function Home() {
   return (
     <Container size="lg" py="xl">
       <Stack align="center" gap="lg" mt="xl">
-        
         <Title order={1} ta="center" size="3.5rem" c="#1e293b" lh={1.1}>
-          De Impact van <span style={{ color: '#0ea5e9' }}>Kunstmatige Intelligentie</span>
+          De Impact van <span style={{color: '#0369a1'}}>Kunstmatige Intelligentie</span>
         </Title>
 
         {/* c="gray.7" in plaats van "dimmed" voor beter WCAG contrast */}
         <Text size="xl" ta="center" c="gray.7" maw={700}>
-          AI verandert onze wereld snel. Het biedt kansen voor geneeskunde en onderwijs, 
-          maar roept ook vragen op over ethiek, banen en deepfakes. 
-          Wij maken de positieve en negatieve kanten inzichtelijk.
+          AI verandert onze wereld snel. Het biedt kansen voor geneeskunde en onderwijs, maar roept ook vragen op over
+          ethiek, banen en deepfakes. Wij maken de positieve en negatieve kanten inzichtelijk.
         </Text>
 
         <Group mt="xl" gap="md">
-          <Button component={Link} to="/quiz" size="xl" radius="md" color="blue">
+          <Button component={Link} to="/quiz" size="xl" radius="md" color="#0369a1">
             Test je kennis: AI of Mens?
           </Button>
           <Button component={Link} to="/kennisbank" size="xl" radius="md" variant="light">
@@ -28,29 +26,33 @@ export default function Home() {
 
         {/* Impact Data in mooie kaartjes */}
         {/* Impact Data in mooie kaartjes */}
-        <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="xl" mt="3rem" w="100%" maw={800}>
+        <SimpleGrid cols={{base: 1, sm: 2}} spacing="xl" mt="3rem" w="100%" maw={800}>
           <Paper shadow="sm" radius="md" p="xl" withBorder bg="white">
-            <Title order={2} c="#0ea5e9" size="2.5rem">34,5%</Title>
+            <Title order={2} c="#0369a1" size="2.5rem">
+              34,5%
+            </Title>
             <Text size="md" c="gray.7" fw={500} mb="xs">
-              van de Belgische bedrijven gebruikte in 2025 minstens één AI-technologie. Goed voor een plaats in de Europese top 5.
+              van de Belgische bedrijven gebruikte in 2025 minstens één AI-technologie. Goed voor een plaats in de
+              Europese top 5.
             </Text>
-            <Text size="xs" c="dimmed">
+            <Text size="xs" c="gray.7">
               Bron: FOD Economie, Belgian Digital Economy Overview 2026
             </Text>
           </Paper>
 
           <Paper shadow="sm" radius="md" p="xl" withBorder bg="white">
-            <Title order={2} c="#0ea5e9" size="2.5rem">42%</Title>
+            <Title order={2} c="#0369a1" size="2.5rem">
+              42%
+            </Title>
             <Text size="md" c="gray.7" fw={500} mb="xs">
               van de Belgen tussen 16 en 74 jaar heeft de voorbije drie maanden een generatieve AI-tool gebruikt.
             </Text>
-            <Text size="xs" c="dimmed">
+            <Text size="xs" c="gray.7">
               Bron: FOD Economie, Belgian Digital Economy Overview 2026
             </Text>
           </Paper>
         </SimpleGrid>
-
       </Stack>
     </Container>
-  );
+  )
 }
