@@ -8,13 +8,13 @@
 - [x] **Fase 2: Basis Layout & Routing**
   - [x] AppShell (Header/Navbar) inbouwen.
   - [x] Router koppelen aan alle 5 pagina's.
-- [ ] **Fase 3: Pagina's & Content**
+- [x] **Fase 3: Pagina's & Content**
   - [x] Home (Hero, Missie, Impact cijfers).
   - [x] Kennisbank (Artikelen, FAQ, Bronnen).
   - [x] Quiz (Interactief met Context API).
   - [x] API Data (Nieuws ophalen met TanStack Query + Filter).
-  - [ ] Contact (Honeypot spamfilter).
+  - [X] Contact (Honeypot spamfilter).
 - [ ] **Fase 4: Testing & Deployment**
-  - [ ] Playwright tests schrijven (Navigatie, Formulier, WCAG).
+  - [x] Playwright tests schrijven (Navigatie, Formulier, WCAG).
   - [ ] GitHub Actions instellen.
   - [ ] Netlify deployment koppelen.
