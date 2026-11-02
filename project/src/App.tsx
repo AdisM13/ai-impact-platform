@@ -1,7 +1,6 @@
 import {AppShell, Burger, Drawer, Group, NavLink, Stack, Title} from '@mantine/core'
 import {useDisclosure} from '@mantine/hooks'
 import {IconBook, IconBrain, IconHome, IconMail, IconNews} from '@tabler/icons-react'
-import {useState} from 'react'
 import {Link, Route, Routes, useLocation} from 'react-router-dom'
 import ApiData from './pages/ApiData'
 import Contact from './pages/Contact'
